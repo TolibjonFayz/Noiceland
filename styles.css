@@ -35,6 +35,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+  text-decoration: none;
 }
 
 .illustration {
@@ -429,8 +430,84 @@
   width: 300px;
   height: 110px;
   padding-bottom: 0px;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   gap: 20.406px;
   flex-shrink: 0;
+}
+
+.blog-chiziq-btn input {
+  width: 221px;
+  height: 48px;
+  flex-shrink: 0;
+  border: 1px solid #ccc;
+  color: #666;
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: #fff;
+  padding: 18px 23px;
+}
+
+.blog-chiziq-btn button {
+  width: 79px;
+  height: 48px;
+  flex-shrink: 0;
+  background: #000;
+  color: #fff;
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.blog-chiziq-second-h1 {
+  color: #666;
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.blog-chiziq-third {
+  display: flex;
+  flex-direction: row;
+  gap: 138px;
+}
+
+.blog-chiziq-third-blog {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.blog-chiziq-third-blog-h1 {
+  color: #666;
+  font-family: Libre Franklin;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.blog-chiziq-third-blog-h2 {
+  color: #fff;
+  font-family: Libre Franklin;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
