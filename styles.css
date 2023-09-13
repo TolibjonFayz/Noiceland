@@ -599,4 +599,68 @@
     letter-spacing: 1px;
     text-transform: uppercase;
   }
+
+  /* blogs */
+  .blogs {
+    width: 447px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 120px;
+  }
+
+  .blogs-blog {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 20px;
+  }
+
+  .blogs-blog img {
+    width: 193px;
+    height: 127px;
+  }
+
+  .blogs-blog-h5 {
+    color: #999;
+    font-family: Libre Franklin;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .blogs-blog-h2 {
+    width: 200px;
+    color: #000;
+    font-family: Tenor Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+
+  .blogs-blog-h3 {
+    color: #000;
+    font-family: Libre Franklin;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .blog-chiziq {
+    width: 447px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #e6e6e6;
+    margin-bottom: 50px;
+  }
 }
